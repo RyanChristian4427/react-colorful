@@ -19,7 +19,7 @@ const Hue = ({ hue, onChange }) => {
     backgroundColor: hsvToHslString({ h: hue, s: 100, v: 100 }),
   };
 
-  const nodeClassName = formatClassName(["react-colorful__hue__longer__classname__for__testing", styles.hue]);
+  const nodeClassName = formatClassName(["react-colorful__hue", styles.hue]);
   const pointerClassName = formatClassName(["react-colorful__hue-pointer", styles.pointer]);
 
   return (
